@@ -1,0 +1,88 @@
+#invoice-POS{
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding:13mm;
+  margin: 0 auto;
+  width: 210mm;
+  height:297mm;
+  background: #FFF;
+  
+  
+}
+h1{
+  
+  color: #222;
+}
+
+h3{
+  
+  font-weight: 300;
+  line-height: 2em;
+}
+p{
+  padding-left:15px;
+  color: #3b3939;
+  line-height: 1.2em;
+}
+ 
+#top, #mid,#bot{ /* Targets all id with 'col-' */
+  border-bottom: 1px solid #EEE;
+}
+
+#top{min-height: 100px;}
+#mid{min-height: 80px;} 
+#bot{ min-height: 50px;}
+
+#top .logo{
+	margin-top: 24px;
+    height: 111px;
+    width: 155px;
+    background: url(navlogo.png) no-repeat;
+    background-size: 160px 124px;
+}
+.clientlogo{
+  float: left;
+	height: 60px;
+	width: 60px;
+	background: url(http://michaeltruong.ca/images/client.jpg) no-repeat;
+	background-size: 60px 60px;
+  border-radius: 50px;
+}
+.info{
+  display: block;
+  float:left;
+  margin-left: 0;
+}
+.title{
+  float: right;
+}
+.title p{text-align: right;} 
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+td{
+  padding: 5px 0 5px 15px;
+  border: 1px solid #1f1e1e
+}
+.tabletitle{
+  padding: 5px;
+  
+  background: #EEE;
+}
+.service{border-bottom: 1px solid #EEE;}
+.item{width: 24mm;}
+
+
+#legalcopy{
+  
+  margin-top: 44mm;
+}
+img{
+  margin-left:90px;
+  width:147px; 
+  height:58px; 
+  float:left;
+}
+
+  
+  
